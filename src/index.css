@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #82d2e6;
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,8 +26,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* min-width: 90%; */
+  min-height: 70vh;
 }
 
 h1 {
@@ -42,7 +42,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #ecd0d0;
+  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -56,7 +56,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #8cabc7;
+    color: #213547;
     background-color: #ffffff;
   }
   a:hover {
@@ -64,5 +64,29 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+
+  .ingreso-colaboradores {
+    background-color: navajowhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid;
+  }
+
+  .buscador {
+    background-color: #d4dd70;
+    color: #404006;
+  }
+  .formu {
+    background-color: #d3d6b2;
+    color: #404006;
+  }
+
+  .captura {
+    display: flex;
+    justify-content: center;
+    margin: 50%;
+    padding: 4px;
   }
 }
